@@ -1,0 +1,383 @@
+.imagenLogoMenuSuperior{
+	width:300px;
+    position: inherit;
+    margin-left:1em;
+	height:80px;
+	top: 0px; /*la barra son 40px*/
+    *position: relative;
+    _position: relative;
+    background: url("../../images/logo_ExpansionDoble.gif") no-repeat transparent;
+}
+.contenedorPrincipal{
+	margin-top:1em; 
+	width:60%;
+	margin-left:1em;
+}
+.cajaLinea{
+	width:100%;
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.bloqueGeneral{
+	width:100%;
+	margin-top:5px;
+	float:left;
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+.bloqueIzda{
+	width:40%;
+	float:left;
+}
+.bloqueDcha{
+	width:60%;
+	float:left;
+}
+.bloque20Dcha{
+	float:right;
+	width:20%;
+}
+.frm_label_titulo{
+	float:none;
+	text-align: left;
+}
+.panelCampoConfirmacion{
+	font-weight: normal;
+}
+.bloquePie{
+	width:100%;
+	margin-top:10px;
+	float:left;
+	text-align:left;
+}
+.bloqueReducido{
+	width:80%;
+	float:left;
+}
+#formDatos\:tarjetaPanel{
+	width:100%;	
+}
+.firmaCoordenada .firmaTextoInferior{
+	font-weight:normal;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden{display:none !important}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}
+
+
+.idiomamini{
+	display:none;
+}
+.idiomamax{
+	display:block;
+}
+
+.panelOTP .col1{
+	width:auto;
+	text-align: right;
+	font-weight: bold;
+}
+.panelOTP .col2{
+	width:70px;
+	text-align: right;
+}
+.panelOTP .col3{
+	width:0%;
+}
+.panelOTP .inputFirma{
+	margin-left:5px;
+	min-width:72px;
+}
+.panelOTP .inputFirma-dis{
+	margin-left:5px;
+	min-width:72px;
+}
+
+/**************** Panel toolTip de ayuda**************/
+.panel_ayuda_virtual{
+      width: 300px;
+      text-align: justify;
+      background-color: #FFFFFF;
+      font-family: Arial;
+      border-top-style: solid;
+      border-top-color: #ABABAB;
+      border-top-width:1px;
+      border-bottom-color:#ABABAB;
+      border-bottom-width: 1px;
+      border-bottom-style:outset;
+      border-right-width:1px;
+      border-right-color:#ABABAB;
+      border-right-style:outset;
+      font-size: 12.8px;
+    
+      -moz-box-shadow: 6px 6px 8px #000;
+         -webkit-box-shadow: 6px 6px 8px #000;
+         box-shadow: 6px 6px 8px #000;
+
+         filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#000000');
+}
+.panel_ayuda_virtual tbody{
+      text-align:justify;
+}
+.panel_ayuda_virtualBody{
+      padding: 5px;
+}
+.panel_ayuda_virtual_lateral_firmas{
+	top:225px !important;
+	left:0px !important;
+	width: 210px;
+	text-align: left;
+}
+.panel_ayuda_virtual_lateral_operaciones{
+	top:300px !important;
+	left:0px !important;
+	width: 210px;
+	text-align: left;
+}
+.fila_blanca {
+	background-color: white;
+}
+.fila_oscura {
+	background-color: #F5F5F5;
+}
+
+#formDatos\:ttip_tarjeta{
+	float:right;
+}
+#formDatos\:ttip_nif{
+	float:right;
+}
+#formDatos\:ttip_pin{
+	float:right;
+}
+#formDatosReact\:ttip_clave_nueva{
+	float:right;
+}
+#formDatosReact\:ttip_repite_clave_nueva{
+	float:right;
+}
+.bloqueNif{
+}
+.panelLabel{
+	padding-bottom:0px;
+}
+	
+/* ==========================================================================
+   $MEDIA-QUERIES
+   ========================================================================== */
+
+
+/*Esta @media es solo para el iphone4 porque el boton de borrar no se veia correctamente. */
+@media only screen and (max-width: 490px) {
+	.contenedorPrincipal{
+		width:90%;
+	}
+	.panelLabel{
+		float:none;
+		text-align: left;
+	}
+	.panelLabel #formDatos\:nifLabel, .panelLabel #formDatos\:pinTarjetaLabel{
+		float:left;
+		text-align: left;		
+	}
+	.cajaLinea{
+		flex-direction: column;
+		align-items: ;
+		
+	}
+	.bloqueIzda{
+		width:100%;	
+		margin-top: 8px;
+	}
+	.bloqueDcha{
+		width:100%;	
+		text-align:left;
+	}
+	.bloqueTarjetaLabel{
+		flex-direction: row;
+		align-items: initial;
+		display: inline-flex;		
+	}	
+	.bloqueNifLabel{
+		text-align:left;
+		width:100%;
+	}
+	.bloqueNifCaja{
+		text-align:left;
+		width: 100%;
+	}
+	.bloqueIzda #formDatos\:nifLabelPanel, .bloqueIzda #formDatos\:pinLabelPanel{
+		width:100%;	
+	}	
+	#formDatos\:nifPanel{
+		width:100%;	
+	}
+	.bloque20Dcha{
+		width:0%;
+	}
+	.bloque20Dcha img{
+		display:none;
+	}
+	.virtualKeypadDiv{
+		left:25% !important;
+		top:300px !important;
+	}
+	.claveNuevaKeyPad .virtualKeypadDiv{
+		top:150px !important;
+	}
+	.repiteClaveKeyPad .virtualKeypadDiv{
+		top:210px !important;
+	}
+	.otpKeyPad .virtualKeypadDiv{
+		top: 170px !important;		
+	}	
+	.bloqueReducido{
+		width:100%;
+		padding-left: 10%;
+	}
+	.frm_label_titulo{
+		text-align:left;
+	}
+	.panelLabelConfirmacion{
+		text-align:center;
+		padding-right: 0px;
+	}
+	.panelCampoConfirmacion{
+		text-align:center;
+		padding-left: 0px;
+	}
+	#formDatos\:ttip_tarjeta{
+		float:right;
+		width:10%;
+		margin-top: -7px !important;
+		*margin-top: -4px !important;
+		_margin-top: -4px !important;
+	}
+	#formDatos\:ttip_nif{
+		float:left;
+		margin-top: -7px !important;
+		*margin-top: -4px !important;
+		_margin-top: -4px !important;
+	}
+	#formDatosReact\:ttip_clave_nueva{
+		float:none;
+	}
+	#formDatosReact\:ttip_repite_clave_nueva{
+		float:none;
+	}
+	#formDatos\:pnl_nif{
+		width:90%;
+	}
+	#formDatos\:pnl_tarjeta{
+		width:90%;
+	}
+	#formDatos\:pnl_pin{
+		width:90%;
+	}
+	#panelTitulo div div{
+		width:100% !important;
+	}
+	#panelTitulo div div div{
+		width:auto !important;
+		display: inline-flex;
+		justify-content: end;
+	}
+	.errorPopup{
+		width:auto;
+	}
+	#formDatos\:ttip_pin {
+	    float: left;
+	    margin-top: -7px !important;
+		*margin-top: -4px !important;
+		_margin-top: -4px !important;
+	}
+}
+
+/* MOBILE LAYOUT (PORTRAIT)
+----------------------------------------------- */
+@media only screen and (min-width: 490px) and (max-width: 600px) {
+	.contenedorPrincipal{
+		width:90%;
+	}
+	#formDatos\:panelImagen{
+		display:none;
+	}
+	.bloque20Dcha img{
+		display:none;
+	}
+	.bloqueReducido{
+		width:100%;
+	}
+	#formDatos\:pnl_nif{
+		width:90%;
+	}
+	#formDatos\:pnl_tarjeta{
+		width:90%;
+	}
+	#formDatos\:pnl_pin{
+		width:90%;
+	}
+	#panelTitulo div div{
+		width:100% !important;
+	}
+	#panelTitulo div div div{
+		width:auto !important;
+		display: inline-flex;
+		justify-content: end;
+	}
+	.errorPopup{
+		width:auto;
+	}
+	.otpKeyPad .virtualKeypadDiv{
+		top: 80px !important;
+		left: 30% !important;		
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.contenedorPrincipal{
+		width:90%;
+	}	
+	.otpKeyPad .virtualKeypadDiv{
+		top: 80px !important;
+		left: 50% !important;		
+	}
+}
+/* TABLET LAYOUT
+----------------------------------------------- */
+@media only screen and (min-width: 901px) and (max-width: 1015px) {
+	.contenedorPrincipal{
+		width:90%;
+	}	
+	.otpKeyPad .virtualKeypadDiv{
+		top: 80px !important;
+		left: 60% !important;		
+	}
+}
+
+@media only screen and (min-width: 1015px) and (max-width: 1255px) {
+	.contenedorPrincipal{
+		width:900px;
+	}	
+	.otpKeyPad .virtualKeypadDiv{
+		top: 80px !important;
+		left: 60% !important;		
+	}
+}
+
+/* > 1255px
+----------------------------------------------- */
+@media only screen and (min-width: 1255px) {
+	.contenedorPrincipal{
+		width:900px;
+	}
+	.otpKeyPad .virtualKeypadDiv{
+		top: 80px !important;
+		left: 60% !important;		
+	}	
+}
