@@ -10,7 +10,7 @@ body {
 	margin-right: 0px;
 	font-size: 100%;
 	text-align: center;
-	/*para IE de windows phone que muestra textos en tamaños incorrectos*/
+	/*para IE de windows phone que muestra textos en tamaï¿½os incorrectos*/
 	-ms-text-size-adjust: none;
 }
 
@@ -273,7 +273,6 @@ div {
 
 .contenedor_boton_redondeado .btnN {
 	padding-top: 4px;
-	background-color: black;
 }
 
 .contenedor_boton_redondeado .btnNE {
@@ -283,21 +282,28 @@ div {
 }
 
 .contenedor_boton_redondeado .btnO {
-	background-color: black;
-	padding-left: 4px;
+
+	/*background-color: white;  Border*/
 }
 
 .contenedor_boton_redondeado .btnC {
 	background-color: black;
-	padding-left: 5px;
-	padding-right: 5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .contenedor_boton_redondeado .btnE {
-	background-color: black;
-	padding-right: 4px;
+	padding-right: 4px;		
+	/*background-color: white;  Border*/
+
 }
 
 .contenedor_boton_redondeado .btnSO {
@@ -308,7 +314,6 @@ div {
 
 .contenedor_boton_redondeado .btnS {
 	padding-bottom: 4px;
-	background-color: black;
 }
 
 .contenedor_boton_redondeado .btnSE {
@@ -1078,7 +1083,7 @@ padding-left: 2px;
 	font-weight:bold;
 	border-width:0px;
 	border-style:none;
-	/* border-color: none; ---> no acepta el valor none, debe ser así: border-color:  [ <color> || transparent ]{1,4} | inherit */
+	/* border-color: none; ---> no acepta el valor none, debe ser asï¿½: border-color:  [ <color> || transparent ]{1,4} | inherit */
 	padding-bottom:3px;
 	padding-top:3px;
 	padding-left:0px;
@@ -2716,7 +2721,7 @@ div.icePnlClpsblHdr table {
 
 .euro {
 	padding-top:7px !important;
-	font-size: 12px; /* Propiedad no válida : font-size dimensión desconocida 12x */
+	font-size: 12px; /* Propiedad no vï¿½lida : font-size dimensiï¿½n desconocida 12x */
 	vertical-align: middle;
 }
 /*****************Cambio de divisas********************/

@@ -46,7 +46,7 @@ body, table {
     font-size: 0.95em;
     color: #000000;
     font-size: 100%;
-    /*para IE de windows phone que muestra textos en tamaños incorrectos*/
+    /*para IE de windows phone que muestra textos en tamaï¿½os incorrectos*/
 	-ms-text-size-adjust: none;
 }
 
@@ -153,7 +153,7 @@ fieldset {
    z-index: -1;
    position: absolute;
    display: block;
-/*filter: mask(); ---> Error de análisis sintáctico mask(). se podria probar Filter: Mask(Color=#000000)">Efecto fondo (Mask) */
+/*filter: mask(); ---> Error de anï¿½lisis sintï¿½ctico mask(). se podria probar Filter: Mask(Color=#000000)">Efecto fondo (Mask) */
 } 
 
 .iceSelInpDatePopup {
@@ -2526,140 +2526,7 @@ Disabled classes for the calendar controls
 }
 
 /*
------------ graphicImage ----------
-*/
-.iceGphImg {
-
-}
-
-/*
------------ message ----------
-*/
-.iceMsg {
-
-}
-
-.iceMsgFatal {
-
-}
-
-.iceMsgError {
-
-}
-
-.iceMsgWarn {
-
-}
-
-.iceMsgInfo {
-
-}
-
-/*
------------ messages ----------
-*/
-.iceMsgs {
-
-}
-
-.iceMsgsFatal {
-
-}
-
-.iceMsgsError {
-
-}
-
-.iceMsgsWarn {
-
-}
-
-.iceMsgsInfo {
-
-}
-
-/*
------------ panelGrid ----------
-*/
-.icePnlGrd {
-    
-}
-
-.icePnlGrdHdr {
-
-}
-
-.icePnlGrdFtr {
-
-}
-
-.icePnlGrdRow1 {
-
-}
-
-.icePnlGrdRow2 {
-
-}
-
-.icePnlGrdCol1 {
-
-}
-
-.icePnlGrdCol2 {
-
-}
-
-/*
------------ panelGroup ----------
-*/
-.icePnlGrp {
-
-}
-
-/*
------------ outputFormat ----------
-*/
-.iceOutFrmt {
-
-}
-
-/*
------------ tree ----------
-*/
-.iceTree {
-
-}
-
-.iceTreeRow {
-
-}
-
-/*
------------ panelSeries ----------
-*/
-.icePnlSrs {
-
-}
-/*
------------ positionedPanel ----------
-*/
-.icePnlPos {
-
-}
-
-.icePnlPos-dis {
-
-}
-
-/*
------------ positionedPanel ----------
-*/
-.icePnlStk {}
-.icePnlStkRow {}
-.icePnlStkCol {}
-
-/*
------------ panelTab header ----------
+------ panelTab header ----------
 */
 .icePnlTbSetHdrIconLft {
     width: 14px;
